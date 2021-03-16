@@ -1,0 +1,94 @@
+
+
+.title {
+    
+    text-align: left;
+    margin-left: 2%;
+}
+
+
+#aboutpage {
+    margin-left: 15%; 
+    margin-right: 15%;
+} 
+
+.nav {
+    
+    margin-left: 51.8%;
+    
+    
+}
+
+a { 
+    text-decoration: none;
+    color:black;
+    font-family: 'Shippori Mincho B1', serif;;
+    
+   
+} 
+.feature { 
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 40px;    
+} 
+
+.header {
+    margin-left: 2%;
+}
+
+.nameplate {
+    font-family:'Shippori Mincho B1', serif; 
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: -3%;
+   
+
+}
+
+.subtitle { 
+    font-family:'Shippori Mincho B1', serif; 
+    font-weight: 400;
+    margin-top: 3%;
+    
+
+} 
+
+.main {
+  margin-left: 2%; 
+  margin-right: 2%; 
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% ; 
+  
+
+                } 
+
+.credentials, .bio { 
+    text-decoration: none;
+    color:black;
+    font-family:'Shippori Mincho B1', serif;
+    
+}
+
+.michael{
+   width: 100%;
+   margin-right: 20%;
+   padding-top: 1%;
+}
+
+
+ 
+.credentials {
+    
+    text-decoration: none;
+    color:black;
+    font-family:'Shippori Mincho B1', serif;
+    font-size: 50%;
+    padding-right: 2%;
+}
+
+.bio { 
+    font-family:'Shippori Mincho B1', serif;
+    margin-left: 2%;
+    font-size: 80%;
+    padding-left: 2%;
+}
