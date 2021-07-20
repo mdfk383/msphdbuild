@@ -4,8 +4,8 @@ header {
     display: flex;
     flex-direction: column;
   flex: 1 1 200px;
-    
-   
+    max-width: 530px;
+  background-color: rgba(256, 256, 256, .75);
 }
 
 header .title {
@@ -46,9 +46,10 @@ nav {
     margin-top: 0px;
     font-size: 25px;
     font-weight: 200;
-    
+    max-width:475px;
     justify-content: center;
     padding-bottom: 20px;
+    background-color: rgba(256, 256, 256, .75);
    
 }
 
@@ -86,7 +87,7 @@ nav a:hover {
     font-size: 25px;
     line-height: 1.5;
     
-    
+    background-color: rgba(256, 256, 256, .75);
    
     
 }

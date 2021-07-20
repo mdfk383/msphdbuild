@@ -47,7 +47,7 @@ function draw()
 		
 		//sending the drop back to the top randomly after it has crossed the screen
 		//adding a randomness to the reset to make the drops scattered on the Y axis
-		if(drops[i]*font_size > c.height && Math.random() > 0.975)
+		if(drops[i]*font_size * 0.5 > c.height && Math.random() > 0.975)
 			drops[i] = 0;
 		
 		//incrementing Y coordinate
