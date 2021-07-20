@@ -86,8 +86,6 @@ nav a:hover {
     font-family: 'Inter', sans-serif;
     font-size: 25px;
     line-height: 1.5;
-    
-    background-color: rgba(256, 256, 256, .75);
    
     
 }
@@ -119,6 +117,11 @@ canvas {display: block;}
 }
 
 
+.findings, .info, .vitae, .publish {
+    background-color: rgba(256, 256, 256, .75);
+}
+
+
 
 @media (max-width: 520px) {
 
@@ -127,11 +130,17 @@ canvas {display: block;}
     }
     
     header h1 { 
-        font-size: 100px;
+        font-size: 80px;
     }
     
     header h3 {
-        font-size: 30px;
+        font-size: 20px;
+        d
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
     }
 }
 
