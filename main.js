@@ -6,7 +6,7 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
-var chinese = "mssdfgsghjdyjfd";
+var chinese = "bptdʈɖcɟkɡqɢʔiyɨʉɯű˥̌˩˥˥˩̂˦́ʊʏɪɴŋɲɳnɱmʙⱱrɾɽʀeøɘɵɤō˧᷄˦˥˩˨᷅˨̀əɦhʕħʁχɣxʝçʐʂʒʃzsðθvfβɸʋɹɻjɰɛœɜɞʌɔ̏˩᷈˧˦˧↗↓ɐæɫʟʎɭlɮɬƥɓƭɗƈʄƙɠʛʠaɶɑɒ↑↘μσωφ‿.‖|ˌˈ̆ˑː∅ǂǃǁǀʘʍwɥʜʢʡɕʑɧɺʦʣʧʤʨʥɚɝ";
 //converting the string into an array of single characters
 chinese = chinese.split("");
 
