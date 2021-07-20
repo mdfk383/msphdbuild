@@ -32,7 +32,7 @@ function draw()
 {
 	//Black BG for the canvas
 	//translucent BG to show trail
-	ctx.fillStyle = "#ffffff";
+	ctx.fillStyle = "rgba(256, 256, 256, 0.05)";
 	ctx.fillRect(0, 0, c.width, c.height);
 	
 	ctx.fillStyle = "#A9AAF0"; //green text
@@ -55,7 +55,7 @@ function draw()
 	}
 }
 
-setInterval(draw, 33);
+setInterval(draw, 80);
 function show_PageBody()
 {  
    setTimeout(function(){ update_Wrapper(); },1000);
