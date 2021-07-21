@@ -6,7 +6,7 @@ header {
     flex-direction: column;
   flex: 1 1 200px;
     max-width: 530px;
-  background-color: rgba(256, 256, 256, .75);
+  
 }
 
 header .title {
@@ -50,7 +50,7 @@ nav {
     max-width:475px;
     justify-content: center;
     padding-bottom: 20px;
-    background-color: rgba(256, 256, 256, .75);
+   
    
 }
 
@@ -119,16 +119,13 @@ canvas {display: block;}
 }
 
 
-.findings, .info, .vitae, .publish {
-    background-color: rgba(256, 256, 256, .75);
-}
 
 
 
 @media (max-width: 520px) {
 
     body {
-        max-width: 520px;
+        max-width: 520px; 
     }
     
     header h1 { 
@@ -144,5 +141,10 @@ canvas {display: block;}
         display: flex;
         flex-direction: column;
     }
+
+    .BodyWrapper
+        { 
+            margin-left: 15px;
+        }
 }
 
