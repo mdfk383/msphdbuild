@@ -20,22 +20,19 @@ for(var x = 0; x < columns; x++)
 	drops[x] = 1; 
 
 
-
-
-
-
-
-    
+	
 
 //drawing the characters
 function draw()
 {
+
+
 	//Black BG for the canvas
 	//translucent BG to show trail
-	ctx.fillStyle = "rgba(256, 256, 256, 0.05)";
-	ctx.fillRect(0, 0, c.width, c.height);
+	ctx.fillStyle = "rgba(256, 256, 256, 0.1)";
+	ctx.fillRect(0, 0, c.width, c.height)
 	
-	ctx.fillStyle = "#A9AAF0"; //green text
+	ctx.fillStyle = "#E1D5FE"; //purple text
 	ctx.font = font_size + "px arial";
 	//looping over drops
 	for(var i = 0; i < drops.length; i++)
@@ -47,13 +44,15 @@ function draw()
 		
 		//sending the drop back to the top randomly after it has crossed the screen
 		//adding a randomness to the reset to make the drops scattered on the Y axis
-		if(drops[i]*font_size * 0.5 > c.height && Math.random() > 0.975)
+		if(drops[i]*font_size * 1 > c.height && Math.random() > 0.985)
 			drops[i] = 0;
 		
 		//incrementing Y coordinate
 		drops[i]++;
 	}
 }
+
+
 
 setInterval(draw, 80);
 function show_PageBody()
