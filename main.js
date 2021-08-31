@@ -1,9 +1,19 @@
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 
-//making the canvas full screen
-c.height = window.innerHeight;
-c.width = window.innerWidth;
+// making the canvas full screen
+ //c.height = window.innerHeight;
+ //c.width = window.innerWidth; 
+
+const resize = () => {
+	const canvas = document.querySelector('canvas')
+	canvas.width = document.body.offsetWidth
+	canvas.height = document.body.offsetHeight
+  }
+  window.addEventListener( 'resize', () => {
+	resize()
+  })
+  resize();
 
 //chinese characters - taken from the unicode charset
 var chinese = "bptdʈɖcɟkɡqɢʔiyɨʉɯű˥̌˩˥˥˩̂˦́ʊʏɪɴŋɲɳnɱmʙⱱrɾɽʀeøɘɵɤō˧᷄˦˥˩˨᷅˨̀əɦhʕħʁχɣxʝçʐʂʒʃzsðθvfβɸʋɹɻjɰɛœɜɞʌɔ̏˩᷈˧˦˧↗↓ɐæɫʟʎɭlɮɬƥɓƭɗƈʄƙɠʛʠaɶɑɒ↑↘μσωφ‿.‖|ˌˈ̆ˑː∅ǂǃǁǀʘʍwɥʜʢʡɕʑɧɺʦʣʧʤʨʥɚɝ";
@@ -66,3 +76,4 @@ function show_PageBody()
      }
 
 }
+
