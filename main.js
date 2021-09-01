@@ -5,10 +5,18 @@ var ctx = c.getContext("2d");
  //c.height = window.innerHeight;
  //c.width = window.innerWidth; 
 
+ const getHeight = () => {
+
+    var htmlElement = document.documentElement;
+    var bodyElement = document.body;
+
+    return Math.max( htmlElement.clientHeight, htmlElement.scrollHeight, htmlElement.offsetHeight, bodyElement.scrollHeight, bodyElement.offsetHeight );
+}
+
 const resize = () => {
 	const canvas = document.querySelector('canvas')
 	canvas.width = document.body.offsetWidth
-	canvas.height = document.body.offsetHeight
+	canvas.height = getHeight()
   }
   window.addEventListener( 'resize', () => {
 	resize()
